@@ -96,3 +96,7 @@
     transform: scaleX(0);
   }
 }
+.freelo__calculator {
+  backdrop-filter: $bg-blur;
+  border-radius: 10px ;
+}

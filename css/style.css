@@ -214,6 +214,11 @@
     transform: scaleX(0);
   }
 }
+.freelo__calculator {
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
 .section__2 {
   background-color: rgba(0, 21, 80, 0.6);
   backdrop-filter: blur(10px);
