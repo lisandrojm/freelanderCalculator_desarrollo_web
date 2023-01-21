@@ -96,7 +96,8 @@
     transform: scaleX(0);
   }
 }
-.freelo__calculator {
+.freelo__blur {
+  background-color: #00000030;
   backdrop-filter: $bg-blur;
   border-radius: 10px ;
 }

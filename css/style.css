@@ -214,7 +214,8 @@
     transform: scaleX(0);
   }
 }
-.freelo__calculator {
+.freelo__blur {
+  background-color: rgba(0, 0, 0, 0.1882352941);
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
