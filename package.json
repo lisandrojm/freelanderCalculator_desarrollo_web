@@ -1,0 +1,16 @@
+{
+  "name": "freelander",
+  "version": "1.0.0",
+  "description": "El sueño de todo freelancer materializado en un proyecto Crypto, NFTs y Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "lisandro",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

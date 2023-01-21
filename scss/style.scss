@@ -1,0 +1,22 @@
+// abstract_files
+@import "abstracts/globals";
+@import "abstracts/variables";
+
+// base_files
+@import "base/reset";
+
+// component_files
+@import "components/arrow";
+@import "components/buttons";
+
+// layout_files
+@import "layout/body";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/section__1";
+@import "layout/section__2";
+@import "layout/section__3";
+@import "layout/footer";
+
+// media_query
+@import "media/@media.scss";

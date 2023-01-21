@@ -1,0 +1,56 @@
+.navbar .nav-link {
+  color: $font-freak;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: $bg-freak;
+  display: block;
+  transition: all 0.2s;
+}
+
+.navbar-toggler {
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    margin: 5px auto;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+}
+
+.navbar-toggler.collapsed {
+  border: 0;
+  .top-bar {
+    transform: rotate(0);
+  }
+  .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .bottom-bar {
+    transform: rotate(0);
+  }
+  .toggler-icon {
+    background-color: $bg-freak;
+  }
+}
+
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}

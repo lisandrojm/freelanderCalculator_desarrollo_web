@@ -1,0 +1,19 @@
+.section__2 {
+  background-color: $bg-transparent;
+  backdrop-filter: $bg-blur;
+  &__h2 {
+    color: $font-light;
+  }
+
+  &__h3 {
+    color: $font-light;
+  }
+
+  &__img {
+    padding: 0;
+  }
+
+  &__p {
+    color: $font-freak;
+  }
+}

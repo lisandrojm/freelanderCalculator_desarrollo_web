@@ -1,0 +1,20 @@
+#site-header {
+  font-size: 17px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: $bg-transparent;
+  box-shadow: 0x 0px 8px rgba(19, 13, 80, 0.5);
+  backdrop-filter: $bg-blur;
+  padding: 10px;
+  color: $font-light;
+  transition: all 0.5s ease;
+  &.hide {
+    top: -450px;
+  }
+  &__logo:hover,
+  &__logo:focus {
+    opacity: 0.65;
+  }
+}

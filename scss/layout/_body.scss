@@ -1,0 +1,12 @@
+.body {
+  background-color: $bg-regular;
+  background-image: url(../assets/img/background.jpg);
+  // background: linear-gradient(#001d66, #0140df);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $font-family;
+  height: 100vh;
+  overflow-x: hidden;
+}

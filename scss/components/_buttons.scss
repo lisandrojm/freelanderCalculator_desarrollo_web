@@ -1,0 +1,11 @@
+.btn {
+  border: 0 !important;
+}
+
+.btn-sm__limpiar {
+  background-color: $bg-transparent_fucsia !important;
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}

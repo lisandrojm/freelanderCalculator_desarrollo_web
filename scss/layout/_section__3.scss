@@ -1,0 +1,33 @@
+.section__3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  &__p {
+    color: $font-freak;
+  }
+
+  &__h2 {
+    color: $font-light;
+  }
+
+  &__h3 {
+    color: $font-light;
+  }
+
+  &__article {
+    padding: 0;
+  }
+
+  &__aside {
+    padding: 0;
+  }
+
+  &__aside__img {
+    transition: transform 0.3s;
+    &:hover,
+    &:focus {
+      opacity: 0.65;
+      transform: scale(1.03);
+    }
+  }
+}

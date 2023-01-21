@@ -1,0 +1,45 @@
+.footer {
+  background-color: $bg-transparent;
+  backdrop-filter: $bg-blur;
+  &__a {
+    color: $font-freak;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 0rem 2rem 0rem 0rem;
+    &:hover,
+    &:focus {
+      color: $font-light;
+    }
+  }
+  &__a__email {
+    font-size: 1rem;
+    text-decoration: none;
+    color: $font-freak;
+    &:hover,
+    &:focus {
+      color: $font-light;
+    }
+  }
+  &__ul {
+    padding: 0;
+    &__li {
+      font-size: 1rem;
+      list-style: none;
+      &__a {
+        text-decoration: none;
+        color: $font-freak;
+        &:hover,
+        &:focus {
+          color: $font-light;
+        }
+      }
+    }
+  }
+  &__h4 {
+    color: $font-light;
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
